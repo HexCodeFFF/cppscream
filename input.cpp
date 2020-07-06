@@ -1,9 +1,11 @@
 #include <iostream>
-using namespace std;
-int main() {
-    int n , i;
+
+using namespace std ;
+
+int main () {
+    int n , i ;
     bool isPrime = true;
-    cout << "Enter a positive integer: " ;
+    cout << "Enter a positive integer: ";
     cin >> n;
     for ( i = 2 ; i <= n / 2 ; ++i ) {
         if ( n % i == 0 ) {

@@ -1,3 +1,6 @@
+# this code is janky and so is my brain
+# it SHOULD work with most c++ code, though it will be smaller if you space out as much as you can
+
 code = open("input.cpp", "r").read()
 
 achar = "A"
